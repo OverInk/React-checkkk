@@ -22,6 +22,7 @@ const projects = [
 		title: 'Gaming streaming portal!',
 		skills: 'React, Node.js, MongoDB',
 		img: proj01,
+		imgBig: proj01Big,
 		gitHubLink: 'https://github.com',
 
 	},
@@ -29,6 +30,7 @@ const projects = [
 		title: 'Number 2',
 		skills: 'React numbar 2',
 		img: proj02,
+		imgBig: proj02Big,
 		gitHubLink: 'https://github.com',
 
 	},
@@ -36,6 +38,7 @@ const projects = [
 		title: 'Number 3',
 		skills: 'React numbar 3',
 		img: proj03,
+		imgBig: proj03Big,
 		gitHubLink: 'https://github.com',
 
 	},
@@ -43,13 +46,14 @@ const projects = [
 		title: 'Number 4',
 		skills: 'React numbar 4',
 		img: proj04,
-		gitHubLink: 'https://github.com',
+
 
 	},
 	{
 		title: 'Number 5',
 		skills: 'React numbar 5',
 		img: proj05,
+		imgBig: proj05Big,
 		gitHubLink: 'https://github.com',
 
 	},
@@ -57,7 +61,8 @@ const projects = [
 		title: 'Number 6',
 		skills: 'React numbar 6',
 		img: proj06,
-		gitHubLink: 'https://github.com',
+		imgBig: proj06Big,
+
 
 	},
 ];
