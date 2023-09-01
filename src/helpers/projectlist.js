@@ -46,8 +46,7 @@ const projects = [
 		title: 'Number 4',
 		skills: 'React numbar 4',
 		img: proj04,
-
-
+		imgBig: proj04Big,
 	},
 	{
 		title: 'Number 5',
