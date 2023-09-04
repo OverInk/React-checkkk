@@ -17,12 +17,14 @@ const BtnDarkMode = () => {
 
 		if (darkMode === 'dark') {
 			document.body.classList.add('dark')
-			console.log(btnRef);
-			console.log(btnRef.current);
-		} else (
+			btnRef.current.classList.add('dark-mode-btn--active');
+			// console.log(btnRef);
+			// console.log(btnRef.current);
+		} else {
 			document.body.classList.remove('dark')
-		)
-	}, [darkMode])
+			btnRef.current.classList.remove('dark-mode-btn--active')
+		};
+	}, [darkMode]);
 
 
 	const toggleDarkMode = () => {
