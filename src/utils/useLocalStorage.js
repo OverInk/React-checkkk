@@ -1,4 +1,4 @@
-import { useState, , useEffect } from "react";
+import { useState, useEffect } from "react";
 
 function getStorageValue(key, defaulValue) {
 
@@ -10,7 +10,7 @@ function getStorageValue(key, defaulValue) {
 
 export const useLocalStorage = (key, defaulValue) => {
 
-	const (value, setValue) = useState(() => {
+	const [value, setValue] = useState(() => {
 		return getStorageValue(key, defaulValue);
 	});
 
